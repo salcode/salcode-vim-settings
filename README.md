@@ -21,6 +21,12 @@ Create link to vim directory
 -f = if target already exists unlink and create new link   
 -s = create a symbolic link
 
+Shortcuts
+---------
+```<leader>t2``` change tab size to 2 spaces
+
+```<leader>t4``` change tab size to 4 spaces
+
 
 Author
 ------
