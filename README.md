@@ -13,6 +13,10 @@ links to them with the following lines from the command line.
 ```ln -sf ~/salcode-vim-settings/vimrc.config ~/.vimrc```
 ```ln -sf ~/salcode-vim-settings/gvimrc.config ~/.gvimrc```
 
+Create link to vim directory
+
+```ln -sf ~/salcode-vim-settings/vim ~/.vim```
+
 ### Link Notes:
 -f = if target already exists unlink and create new link   
 -s = create a symbolic link
