@@ -27,6 +27,14 @@ Shortcuts
 
 ```<leader>t4``` change tab size to 4 spaces
 
+Plugins
+-------
+
+### [Commentary](https://github.com/tpope/vim-commentary)
+`gc` on visual selection commments selection (or uncomments)
+`gcc` comments current line or uncomments
+default comments are `/* */`, vimrc changes to `//` for php and js
+
 
 Author
 ------
