@@ -10,8 +10,7 @@ settings for .vimrc and .gvimrc respectively.
 Rather than moving and renaming the files I recommend creating
 links to them with the following line from the command line.
 
-```
-ln -sf ~/salcode-vim-settings/vimrc.config ~/.vimrc && ln -sf ~/salcode-vim-settings/gvimrc.config ~/.gvimrc && ln -sf ~/salcode-vim-settings/vim ~/.vim```
+`ln -sf ~/salcode-vim-settings/vimrc.config ~/.vimrc && ln -sf ~/salcode-vim-settings/gvimrc.config ~/.gvimrc && ln -sf ~/salcode-vim-settings/vim ~/.vim`
 
 ### What this install line does
 **ln -sf ~/salcode-vim-settings/vimrc.config ~/.vimrc**
@@ -29,25 +28,25 @@ makes .vim a link that points to the directory /vim in this project
 
 Default Configurations
 ----------------------
-<leader> is mapped to ```,```
+<leader> is mapped to `,`
 
 Shortcuts
 ---------
-```jk``` is mapped to ESC in visual mode
+`jk` is mapped to ESC in visual mode
 
-```<leader>t2``` change tab size to 2 spaces  
-```<leader>t4``` change tab size to 4 spaces
+`<leader>t2` change tab size to 2 spaces  
+`<leader>t4` change tab size to 4 spaces
 
-```<leader>w``` clean all trailing whitespace
+`<leader>w` clean all trailing whitespace
 
-```<leader>el``` the current expression on a line and error log it with comment  
+`<leader>el` the current expression on a line and error log it with comment  
 **$str** becomes **error_log( '$str = ' . print_r( $str, true ) );**
 
-```<leader>ev``` edit .vimrc file  
-```<leader>sv``` source .vimrc file (i.e. apply settings in that file)
+`<leader>ev` edit .vimrc file  
+`<leader>sv` source .vimrc file (i.e. apply settings in that file)
 
-```<leader>eg``` edit .gvimrc file  
-```<leader>sg``` source .gvimrc file (i.e. apply settings in that file)
+`<leader>eg` edit .gvimrc file  
+`<leader>sg` source .gvimrc file (i.e. apply settings in that file)
 
 
 Plugins
