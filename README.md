@@ -51,6 +51,11 @@ Shortcuts
 Plugins
 -------
 
+### [Pathogen](https://github.com/tpope/vim-pathogen)
+Makes it easy to install plugins. Add the plugin project directory
+to `vim/bundle` and pathogen manages things from there.  
+**NOTE** to update documentation after installing a new plugin run `:Helptags`
+
 ### [Commentary](https://github.com/tpope/vim-commentary)
 `gc` on visual selection commments selection (or uncomments)
 `gcc` comments current line or uncomments
