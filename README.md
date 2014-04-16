@@ -59,6 +59,9 @@ default comments are `/* */`, vimrc changes to `//` for php and js
 ### [Vim Markdown](https://github.com/plasticboy/vim-markdown)
 Adds Markdown Syntax Highlighting
 
+### [Syntastic](https://github.com/scrooloose/syntastic)
+Syntax highlighting with errors notated with `>>` along the left side.
+
 ### [NERDTree](https://github.com/scrooloose/nerdtree)
 File browser bar on the side of your editor.
 `<leader>d` is mapped to open NERDTree
