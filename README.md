@@ -66,13 +66,14 @@ Syntax highlighting with errors notated with `>>` along the left side.
 File browser bar on the side of your editor.
 `<leader>d` is mapped to open NERDTree
 [Usevim Helpful NERDTree info](http://usevim.com/2012/07/18/nerdtree/)
-I: Toggle hidden files
-?: Toggle NERD Tree's quick help
-m: Show the NERD Tree menu
-t: Open the selected file in a new tab
-R: Refresh the tree, useful if files change outside of Vim
-i: Open the selected file in a horizontal split window
-s: Open the selected file in a vertical split window
+
+`I`: Toggle hidden files  
+`?`: Toggle NERD Tree's quick help  
+`m`: Show the NERD Tree menu  
+`t`: Open the selected file in a new tab  
+`R`: Refresh the tree, useful if files change outside of Vim  
+`i`: Open the selected file in a horizontal split window  
+`s`: Open the selected file in a vertical split window  
 
 
 Author
