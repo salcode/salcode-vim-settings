@@ -57,6 +57,8 @@ Plugins
 `gcc` comments current line or uncomments
 default comments are `/* */`, vimrc changes to `//` for php and js
 
+### [Vim Markdown](https://github.com/plasticboy/vim-markdown)
+Adds Markdown Syntax Highlighting
 
 Author
 ------
