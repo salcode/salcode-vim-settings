@@ -67,9 +67,16 @@ Adds Markdown Syntax Highlighting
 ### [Syntastic](https://github.com/scrooloose/syntastic)
 Syntax highlighting with errors notated with `>>` along the left side.
 
+### [PDV](https://github.com/tobyS/pdv)
+Create PHP Doc Blocks
+`<leader>d` to trigger
+
+### [Vmustache](https://github.com/tobyS/vmustache)
+Dependency of PDV
+
 ### [NERDTree](https://github.com/scrooloose/nerdtree)
 File browser bar on the side of your editor.
-`<leader>d` is mapped to open NERDTree
+`<leader>nt` is mapped to open NERDTree
 [Usevim Helpful NERDTree info](http://usevim.com/2012/07/18/nerdtree/)
 
 `I`: Toggle hidden files  
