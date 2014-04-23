@@ -62,10 +62,10 @@ Makes it easy to install plugins. Add the plugin project directory
 to `vim/bundle` and pathogen manages things from there.  
 **NOTE** to update documentation after installing a new plugin run `:Helptags`
 
-### [Commentary](https://github.com/tpope/vim-commentary)
-`gc` on visual selection commments selection (or uncomments)
-`gcc` comments current line or uncomments
-default comments are `/* */`, vimrc changes to `//` for php and js
+### [NERDCommenter](https://github.com/scrooloose/nerdcommenter)
+`<leader>c<space>` toggle comment state based on first line of selection
+`<leader>cs` comment in sexy style
+`<leader>cu` uncomment lines
 
 ### [Vim Markdown](https://github.com/plasticboy/vim-markdown)
 Adds Markdown Syntax Highlighting
