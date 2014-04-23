@@ -10,9 +10,13 @@ settings for .vimrc and .gvimrc respectively.
 Rather than moving and renaming the files I recommend creating
 links to them with the following line from the command line.
 
+### Download
+`git clone --recursive https://github.com/salcode/salcode-vim-settings.git ~/salcode-vim-settings`
+
+### Configure/Install
 `ln -sf ~/salcode-vim-settings/vimrc.config ~/.vimrc && ln -sf ~/salcode-vim-settings/gvimrc.config ~/.gvimrc && ln -sf ~/salcode-vim-settings/vim ~/.vim`
 
-### What this install line does
+#### What this install line does
 **ln -sf ~/salcode-vim-settings/vimrc.config ~/.vimrc**
 makes .vimrc a link that points to the project's vimrc.config
 
@@ -22,7 +26,7 @@ makes .gvimrc a link that points to the project's gvimrc.config
 **ln -sf ~/salcode-vim-settings/vim ~/.vim**
 makes .vim a link that points to the directory /vim in this project
 
-### Link Notes:
+#### Link Notes:
 -f = if target already exists unlink and create new link  
 -s = create a symbolic link
 
@@ -50,6 +54,8 @@ Shortcuts
 
 Plugins
 -------
+Plugins are added as submodules, to update all submodules use
+`git submodule update --init --recursive`
 
 ### [Pathogen](https://github.com/tpope/vim-pathogen)
 Makes it easy to install plugins. Add the plugin project directory
