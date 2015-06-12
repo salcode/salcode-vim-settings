@@ -1,6 +1,12 @@
 Salcode Vim Settings
 ====================
-This is my attempt to move all my Vim settings into version control.
+
+No Longer Under Development
+---------------------------
+
+This respository is no longer under development.  My current Vim configuration
+can be found at
+[https://github.com/salcode/ironcode-vim](https://github.com/salcode/ironcode-vim)
 
 Setup
 -----
